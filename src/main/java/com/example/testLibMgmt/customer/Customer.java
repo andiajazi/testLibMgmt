@@ -4,7 +4,7 @@ import javax.persistence.*;
 
 import static javax.persistence.GenerationType.SEQUENCE;
 
-@Entity(name = "customer")
+@Entity(name = "customer") //to map 'customer' to database
 @Table(
         name = "customer",
         uniqueConstraints = {

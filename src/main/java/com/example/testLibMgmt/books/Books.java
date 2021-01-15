@@ -46,7 +46,7 @@ public class Books {
         this.bookISBN = bookISBN;
     }
 
-    public Books() {
+    public Books(String keshtjella, long l) {
     }
 
     public String getBookTitle() {
